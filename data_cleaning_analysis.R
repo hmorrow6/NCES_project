@@ -192,6 +192,8 @@ abline(lm(els3$reading~els3$math), col="red") # regression line (y~x)
 hist(els$reading)
 hist(els$math)
 
+##### MODELING 
+
 ## Linear regression models, only for students who have no missing data
 #Changed the models to always include SES first, upon discovering how strong of a predictor it is.
 
